@@ -11,9 +11,11 @@ public class v1 {
         System.out.print("Enter the object: ");
         String Object = scanner.nextLine();
         scanner.close();
+        
+
         System.out.println( Subject + " " + Verb + " " + Object);
 
 
-        
+        System.out.println();
     }
 }

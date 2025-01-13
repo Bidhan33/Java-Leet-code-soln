@@ -11,13 +11,13 @@ public class v2 {
         int age =Integer.parseInt(scanner.nextLine());
 
         System.out.print("Enter hometown: ");
-        String Object = scanner.nextLine();
+        String hometown = scanner.nextLine();
         scanner.close();
         
-        if (age <= 18){
-            System.out.println(name + ", who is a major ," + "lives in " + Object);
+        if (age >= 18){
+            System.out.println(name + ", who is a major, lives in " + hometown);
         }else{
-            System.out.println(name + ", who is a minor ," + "lives in " + Object);
+            System.out.println(name + ", who is a minor, lives in " + hometown);
         }
         
     }
